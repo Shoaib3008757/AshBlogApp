@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/simple_bg">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Blog"
+        android:textColor="@color/white"
+        android:id="@+id/btNewBlog"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edit_text_style"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Blogs"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/btViewBlogs"
+       android:layout_below="@+id/btNewBlog"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+        />
+
+
+
+</RelativeLayout>
